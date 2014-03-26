@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49517F5618CCBC4B00E757BA /* playWhiteCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F5318CCBC4A00E757BA /* playWhiteCircle@2x.png */; };
+		49517F5718CCBC4B00E757BA /* pauseColorCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F5418CCBC4B00E757BA /* pauseColorCircle@2x.png */; };
+		49517F5818CCBC4B00E757BA /* pauseWhiteCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F5518CCBC4B00E757BA /* pauseWhiteCircle@2x.png */; };
+		49517F6218CCC96C00E757BA /* fastVidIcon58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F5F18CCC96C00E757BA /* fastVidIcon58@2x.png */; };
+		49517F6318CCC96C00E757BA /* fastVidIcon80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F6018CCC96C00E757BA /* fastVidIcon80@2x.png */; };
+		49517F6418CCC96C00E757BA /* fastVidIcon120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F6118CCC96C00E757BA /* fastVidIcon120@2x.png */; };
+		49517F7118CCD33900E757BA /* fastbackground1136@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F6F18CCD33900E757BA /* fastbackground1136@2x.png */; };
+		49517F7218CCD33900E757BA /* fastBackground960@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F7018CCD33900E757BA /* fastBackground960@2x.png */; };
 		49E3ADDE18CBF419005D1B7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E3ADDD18CBF419005D1B7B /* Foundation.framework */; };
 		49E3ADE018CBF419005D1B7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E3ADDF18CBF419005D1B7B /* CoreGraphics.framework */; };
 		49E3ADE218CBF419005D1B7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E3ADE118CBF419005D1B7B /* UIKit.framework */; };
@@ -19,6 +27,13 @@
 		49E3ADF918CBF419005D1B7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E3ADE118CBF419005D1B7B /* UIKit.framework */; };
 		49E3AE0118CBF419005D1B7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49E3ADFF18CBF419005D1B7B /* InfoPlist.strings */; };
 		49E3AE0318CBF419005D1B7B /* Fast_VidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E3AE0218CBF419005D1B7B /* Fast_VidTests.m */; };
+		49E3AE0E18CBF44F005D1B7B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E3AE0D18CBF44F005D1B7B /* MainViewController.m */; };
+		49E3AE1818CC6FA3005D1B7B /* CameraEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E3AE1518CC6FA3005D1B7B /* CameraEngine.m */; };
+		49E3AE1918CC6FA3005D1B7B /* VideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E3AE1618CC6FA3005D1B7B /* VideoEncoder.m */; };
+		49E3AE1C18CC9AA5005D1B7B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E3AE1B18CC9AA5005D1B7B /* AssetsLibrary.framework */; };
+		49E3AE1E18CC9AB0005D1B7B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E3AE1D18CC9AB0005D1B7B /* CoreVideo.framework */; };
+		49E3AE2018CC9ABF005D1B7B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E3AE1F18CC9ABF005D1B7B /* CoreMedia.framework */; };
+		49E3AE2218CC9AD0005D1B7B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E3AE2118CC9AD0005D1B7B /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +47,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		49E3ADDA18CBF419005D1B7B /* Fast Vid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fast Vid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49517F5318CCBC4A00E757BA /* playWhiteCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playWhiteCircle@2x.png"; path = "../../playWhiteCircle@2x.png"; sourceTree = "<group>"; };
+		49517F5418CCBC4B00E757BA /* pauseColorCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pauseColorCircle@2x.png"; path = "../../pauseColorCircle@2x.png"; sourceTree = "<group>"; };
+		49517F5518CCBC4B00E757BA /* pauseWhiteCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pauseWhiteCircle@2x.png"; path = "../../pauseWhiteCircle@2x.png"; sourceTree = "<group>"; };
+		49517F5F18CCC96C00E757BA /* fastVidIcon58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fastVidIcon58@2x.png"; sourceTree = "<group>"; };
+		49517F6018CCC96C00E757BA /* fastVidIcon80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fastVidIcon80@2x.png"; sourceTree = "<group>"; };
+		49517F6118CCC96C00E757BA /* fastVidIcon120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fastVidIcon120@2x.png"; path = "../../../Desktop/fastVidIcon120@2x.png"; sourceTree = "<group>"; };
+		49517F6F18CCD33900E757BA /* fastbackground1136@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fastbackground1136@2x.png"; path = "../../../Desktop/fastbackground1136@2x.png"; sourceTree = "<group>"; };
+		49517F7018CCD33900E757BA /* fastBackground960@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fastBackground960@2x.png"; path = "../../../Desktop/fastBackground960@2x.png"; sourceTree = "<group>"; };
+		49E3ADDA18CBF419005D1B7B /* Fast Video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fast Video.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E3ADDD18CBF419005D1B7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49E3ADDF18CBF419005D1B7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		49E3ADE118CBF419005D1B7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		49E3ADE518CBF419005D1B7B /* Fast Vid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fast Vid-Info.plist"; sourceTree = "<group>"; };
+		49E3ADE518CBF419005D1B7B /* Fast Video-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fast Video-Info.plist"; sourceTree = "<group>"; };
 		49E3ADE718CBF419005D1B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49E3ADE918CBF419005D1B7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		49E3ADEB18CBF419005D1B7B /* Fast Vid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fast Vid-Prefix.pch"; sourceTree = "<group>"; };
+		49E3ADEB18CBF419005D1B7B /* Fast Video-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fast Video-Prefix.pch"; sourceTree = "<group>"; };
 		49E3ADEC18CBF419005D1B7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		49E3ADED18CBF419005D1B7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		49E3ADEF18CBF419005D1B7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		49E3ADF518CBF419005D1B7B /* Fast VidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fast VidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E3ADF518CBF419005D1B7B /* Fast VideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fast VideoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E3ADF618CBF419005D1B7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		49E3ADFE18CBF419005D1B7B /* Fast VidTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fast VidTests-Info.plist"; sourceTree = "<group>"; };
+		49E3ADFE18CBF419005D1B7B /* Fast VideoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fast VideoTests-Info.plist"; sourceTree = "<group>"; };
 		49E3AE0018CBF419005D1B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49E3AE0218CBF419005D1B7B /* Fast_VidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fast_VidTests.m; sourceTree = "<group>"; };
+		49E3AE0C18CBF44F005D1B7B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		49E3AE0D18CBF44F005D1B7B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		49E3AE1518CC6FA3005D1B7B /* CameraEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraEngine.m; sourceTree = "<group>"; };
+		49E3AE1618CC6FA3005D1B7B /* VideoEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoEncoder.m; sourceTree = "<group>"; };
+		49E3AE1718CC6FA3005D1B7B /* VideoEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoEncoder.h; sourceTree = "<group>"; };
+		49E3AE1A18CC6FCE005D1B7B /* CameraEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraEngine.h; sourceTree = "<group>"; };
+		49E3AE1B18CC9AA5005D1B7B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		49E3AE1D18CC9AB0005D1B7B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		49E3AE1F18CC9ABF005D1B7B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		49E3AE2118CC9AD0005D1B7B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +88,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E3AE2218CC9AD0005D1B7B /* AVFoundation.framework in Frameworks */,
+				49E3AE2018CC9ABF005D1B7B /* CoreMedia.framework in Frameworks */,
+				49E3AE1E18CC9AB0005D1B7B /* CoreVideo.framework in Frameworks */,
+				49E3AE1C18CC9AA5005D1B7B /* AssetsLibrary.framework in Frameworks */,
 				49E3ADE018CBF419005D1B7B /* CoreGraphics.framework in Frameworks */,
 				49E3ADE218CBF419005D1B7B /* UIKit.framework in Frameworks */,
 				49E3ADDE18CBF419005D1B7B /* Foundation.framework in Frameworks */,
@@ -87,8 +124,8 @@
 		49E3ADDB18CBF419005D1B7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49E3ADDA18CBF419005D1B7B /* Fast Vid.app */,
-				49E3ADF518CBF419005D1B7B /* Fast VidTests.xctest */,
+				49E3ADDA18CBF419005D1B7B /* Fast Video.app */,
+				49E3ADF518CBF419005D1B7B /* Fast VideoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +133,10 @@
 		49E3ADDC18CBF419005D1B7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49E3AE2118CC9AD0005D1B7B /* AVFoundation.framework */,
+				49E3AE1F18CC9ABF005D1B7B /* CoreMedia.framework */,
+				49E3AE1D18CC9AB0005D1B7B /* CoreVideo.framework */,
+				49E3AE1B18CC9AA5005D1B7B /* AssetsLibrary.framework */,
 				49E3ADDD18CBF419005D1B7B /* Foundation.framework */,
 				49E3ADDF18CBF419005D1B7B /* CoreGraphics.framework */,
 				49E3ADE118CBF419005D1B7B /* UIKit.framework */,
@@ -107,8 +148,14 @@
 		49E3ADE318CBF419005D1B7B /* Fast Vid */ = {
 			isa = PBXGroup;
 			children = (
+				49E3AE1A18CC6FCE005D1B7B /* CameraEngine.h */,
+				49E3AE1518CC6FA3005D1B7B /* CameraEngine.m */,
+				49E3AE1618CC6FA3005D1B7B /* VideoEncoder.m */,
+				49E3AE1718CC6FA3005D1B7B /* VideoEncoder.h */,
 				49E3ADEC18CBF419005D1B7B /* AppDelegate.h */,
 				49E3ADED18CBF419005D1B7B /* AppDelegate.m */,
+				49E3AE0C18CBF44F005D1B7B /* MainViewController.h */,
+				49E3AE0D18CBF44F005D1B7B /* MainViewController.m */,
 				49E3ADEF18CBF419005D1B7B /* Images.xcassets */,
 				49E3ADE418CBF419005D1B7B /* Supporting Files */,
 			);
@@ -118,10 +165,18 @@
 		49E3ADE418CBF419005D1B7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				49E3ADE518CBF419005D1B7B /* Fast Vid-Info.plist */,
+				49517F6F18CCD33900E757BA /* fastbackground1136@2x.png */,
+				49517F7018CCD33900E757BA /* fastBackground960@2x.png */,
+				49517F5F18CCC96C00E757BA /* fastVidIcon58@2x.png */,
+				49517F6018CCC96C00E757BA /* fastVidIcon80@2x.png */,
+				49517F6118CCC96C00E757BA /* fastVidIcon120@2x.png */,
+				49517F5318CCBC4A00E757BA /* playWhiteCircle@2x.png */,
+				49517F5418CCBC4B00E757BA /* pauseColorCircle@2x.png */,
+				49517F5518CCBC4B00E757BA /* pauseWhiteCircle@2x.png */,
+				49E3ADE518CBF419005D1B7B /* Fast Video-Info.plist */,
 				49E3ADE618CBF419005D1B7B /* InfoPlist.strings */,
 				49E3ADE918CBF419005D1B7B /* main.m */,
-				49E3ADEB18CBF419005D1B7B /* Fast Vid-Prefix.pch */,
+				49E3ADEB18CBF419005D1B7B /* Fast Video-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,7 +193,7 @@
 		49E3ADFD18CBF419005D1B7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				49E3ADFE18CBF419005D1B7B /* Fast VidTests-Info.plist */,
+				49E3ADFE18CBF419005D1B7B /* Fast VideoTests-Info.plist */,
 				49E3ADFF18CBF419005D1B7B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -147,9 +202,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49E3ADD918CBF419005D1B7B /* Fast Vid */ = {
+		49E3ADD918CBF419005D1B7B /* Fast Video */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49E3AE0618CBF419005D1B7B /* Build configuration list for PBXNativeTarget "Fast Vid" */;
+			buildConfigurationList = 49E3AE0618CBF419005D1B7B /* Build configuration list for PBXNativeTarget "Fast Video" */;
 			buildPhases = (
 				49E3ADD618CBF419005D1B7B /* Sources */,
 				49E3ADD718CBF419005D1B7B /* Frameworks */,
@@ -159,14 +214,14 @@
 			);
 			dependencies = (
 			);
-			name = "Fast Vid";
+			name = "Fast Video";
 			productName = "Fast Vid";
-			productReference = 49E3ADDA18CBF419005D1B7B /* Fast Vid.app */;
+			productReference = 49E3ADDA18CBF419005D1B7B /* Fast Video.app */;
 			productType = "com.apple.product-type.application";
 		};
-		49E3ADF418CBF419005D1B7B /* Fast VidTests */ = {
+		49E3ADF418CBF419005D1B7B /* Fast VideoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49E3AE0918CBF419005D1B7B /* Build configuration list for PBXNativeTarget "Fast VidTests" */;
+			buildConfigurationList = 49E3AE0918CBF419005D1B7B /* Build configuration list for PBXNativeTarget "Fast VideoTests" */;
 			buildPhases = (
 				49E3ADF118CBF419005D1B7B /* Sources */,
 				49E3ADF218CBF419005D1B7B /* Frameworks */,
@@ -177,9 +232,9 @@
 			dependencies = (
 				49E3ADFB18CBF419005D1B7B /* PBXTargetDependency */,
 			);
-			name = "Fast VidTests";
+			name = "Fast VideoTests";
 			productName = "Fast VidTests";
-			productReference = 49E3ADF518CBF419005D1B7B /* Fast VidTests.xctest */;
+			productReference = 49E3ADF518CBF419005D1B7B /* Fast VideoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +251,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 49E3ADD518CBF419005D1B7B /* Build configuration list for PBXProject "Fast Vid" */;
+			buildConfigurationList = 49E3ADD518CBF419005D1B7B /* Build configuration list for PBXProject "Fast Video" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -208,8 +263,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49E3ADD918CBF419005D1B7B /* Fast Vid */,
-				49E3ADF418CBF419005D1B7B /* Fast VidTests */,
+				49E3ADD918CBF419005D1B7B /* Fast Video */,
+				49E3ADF418CBF419005D1B7B /* Fast VideoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,8 +274,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49517F5618CCBC4B00E757BA /* playWhiteCircle@2x.png in Resources */,
 				49E3ADE818CBF419005D1B7B /* InfoPlist.strings in Resources */,
+				49517F6318CCC96C00E757BA /* fastVidIcon80@2x.png in Resources */,
+				49517F5718CCBC4B00E757BA /* pauseColorCircle@2x.png in Resources */,
+				49517F7218CCD33900E757BA /* fastBackground960@2x.png in Resources */,
+				49517F5818CCBC4B00E757BA /* pauseWhiteCircle@2x.png in Resources */,
+				49517F6218CCC96C00E757BA /* fastVidIcon58@2x.png in Resources */,
+				49517F7118CCD33900E757BA /* fastbackground1136@2x.png in Resources */,
 				49E3ADF018CBF419005D1B7B /* Images.xcassets in Resources */,
+				49517F6418CCC96C00E757BA /* fastVidIcon120@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +302,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E3AE1818CC6FA3005D1B7B /* CameraEngine.m in Sources */,
 				49E3ADEE18CBF419005D1B7B /* AppDelegate.m in Sources */,
+				49E3AE0E18CBF44F005D1B7B /* MainViewController.m in Sources */,
+				49E3AE1918CC6FA3005D1B7B /* VideoEncoder.m in Sources */,
 				49E3ADEA18CBF419005D1B7B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +323,7 @@
 /* Begin PBXTargetDependency section */
 		49E3ADFB18CBF419005D1B7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 49E3ADD918CBF419005D1B7B /* Fast Vid */;
+			target = 49E3ADD918CBF419005D1B7B /* Fast Video */;
 			targetProxy = 49E3ADFA18CBF419005D1B7B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -360,9 +426,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Fast Vid/Fast Vid-Prefix.pch";
-				INFOPLIST_FILE = "Fast Vid/Fast Vid-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Fast Vid/Fast Video-Prefix.pch";
+				INFOPLIST_FILE = "Fast Vid/Fast Video-Info.plist";
+				PRODUCT_NAME = "Fast Video";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,9 +439,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Fast Vid/Fast Vid-Prefix.pch";
-				INFOPLIST_FILE = "Fast Vid/Fast Vid-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Fast Vid/Fast Video-Prefix.pch";
+				INFOPLIST_FILE = "Fast Vid/Fast Video-Info.plist";
+				PRODUCT_NAME = "Fast Video";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -396,8 +462,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Fast VidTests/Fast VidTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Fast VidTests/Fast VideoTests-Info.plist";
+				PRODUCT_NAME = "Fast VideoTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -415,8 +481,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fast Vid/Fast Vid-Prefix.pch";
-				INFOPLIST_FILE = "Fast VidTests/Fast VidTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Fast VidTests/Fast VideoTests-Info.plist";
+				PRODUCT_NAME = "Fast VideoTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -425,7 +491,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49E3ADD518CBF419005D1B7B /* Build configuration list for PBXProject "Fast Vid" */ = {
+		49E3ADD518CBF419005D1B7B /* Build configuration list for PBXProject "Fast Video" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49E3AE0418CBF419005D1B7B /* Debug */,
@@ -434,21 +500,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49E3AE0618CBF419005D1B7B /* Build configuration list for PBXNativeTarget "Fast Vid" */ = {
+		49E3AE0618CBF419005D1B7B /* Build configuration list for PBXNativeTarget "Fast Video" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49E3AE0718CBF419005D1B7B /* Debug */,
 				49E3AE0818CBF419005D1B7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		49E3AE0918CBF419005D1B7B /* Build configuration list for PBXNativeTarget "Fast VidTests" */ = {
+		49E3AE0918CBF419005D1B7B /* Build configuration list for PBXNativeTarget "Fast VideoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49E3AE0A18CBF419005D1B7B /* Debug */,
 				49E3AE0B18CBF419005D1B7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

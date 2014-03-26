@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "49E3ADD918CBF419005D1B7B"
-               BuildableName = "Fast Vid.app"
-               BlueprintName = "Fast Vid"
-               ReferencedContainer = "container:Fast Vid.xcodeproj">
+               BuildableName = "Fast Video.app"
+               BlueprintName = "Fast Video"
+               ReferencedContainer = "container:Fast Video.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "49E3ADF418CBF419005D1B7B"
-               BuildableName = "Fast VidTests.xctest"
-               BlueprintName = "Fast VidTests"
-               ReferencedContainer = "container:Fast Vid.xcodeproj">
+               BuildableName = "Fast VideoTests.xctest"
+               BlueprintName = "Fast VideoTests"
+               ReferencedContainer = "container:Fast Video.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "49E3ADD918CBF419005D1B7B"
-            BuildableName = "Fast Vid.app"
-            BlueprintName = "Fast Vid"
-            ReferencedContainer = "container:Fast Vid.xcodeproj">
+            BuildableName = "Fast Video.app"
+            BlueprintName = "Fast Video"
+            ReferencedContainer = "container:Fast Video.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "49E3ADD918CBF419005D1B7B"
-            BuildableName = "Fast Vid.app"
-            BlueprintName = "Fast Vid"
-            ReferencedContainer = "container:Fast Vid.xcodeproj">
+            BuildableName = "Fast Video.app"
+            BlueprintName = "Fast Video"
+            ReferencedContainer = "container:Fast Video.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "49E3ADD918CBF419005D1B7B"
-            BuildableName = "Fast Vid.app"
-            BlueprintName = "Fast Vid"
-            ReferencedContainer = "container:Fast Vid.xcodeproj">
+            BuildableName = "Fast Video.app"
+            BlueprintName = "Fast Video"
+            ReferencedContainer = "container:Fast Video.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
