@@ -28,8 +28,8 @@
 @property(nonatomic,strong) dispatch_queue_t captureQueue;
 
 
-- (AVCaptureDevice *)rearCamera;
-- (AVCaptureDevice *)audioDevice;
+//- (AVCaptureDevice *)rearCamera;
+//- (AVCaptureDevice *)audioDevice;
 
 
 

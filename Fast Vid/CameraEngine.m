@@ -53,7 +53,7 @@ static CameraEngine* theEngine;
 
 + (void) initialize
 {
-    NSLog(@"called init");
+    NSLog(@"called Camera Engine init");
     // test recommended to avoid duplicate init via subclass
     if (self == [CameraEngine class])
     {
@@ -70,10 +70,6 @@ static CameraEngine* theEngine;
 
 
 
-
-
-
-
 - (void) startup
 {
     NSLog(@"starting up");
@@ -87,15 +83,29 @@ static CameraEngine* theEngine;
         _discont = NO;
         
         // create capture device with video input
+        NSLog(@"1");
         _session = [[AVCaptureSession alloc] init];
-        AVCaptureDevice* backCamera = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
-        AVCaptureDeviceInput* input = [AVCaptureDeviceInput deviceInputWithDevice:backCamera error:nil];
-        [_session addInput:input];
+        NSLog(@"session is %@",_session);
         
+        AVCaptureDevice* backCamera = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
+        NSLog(@"back camera is %@",backCamera);
+
+        AVCaptureDeviceInput* input = [AVCaptureDeviceInput deviceInputWithDevice:backCamera error:nil];
+        NSLog(@"input is %@",input);
+
+        [_session addInput:input];
+        NSLog(@"5");
+
         // audio input from default mic
         AVCaptureDevice* mic = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeAudio];
+        NSLog(@"6");
+
         AVCaptureDeviceInput* micinput = [AVCaptureDeviceInput deviceInputWithDevice:mic error:nil];
+        NSLog(@"7");
+
         [_session addInput:micinput];
+        NSLog(@"8");
+
         
         // create an output for YUV output with self as delegate
         _captureQueue = dispatch_queue_create("uk.co.gdcl.cameraengine.capture", DISPATCH_QUEUE_SERIAL);
@@ -143,7 +153,9 @@ static CameraEngine* theEngine;
 
 
 
-/*- (void) startup
+/*
+ 
+- (void) startup
 {
 
 
@@ -186,10 +198,17 @@ static CameraEngine* theEngine;
 
     [self.appDelegate.captureSession startRunning];
     NSLog(@"finished start running!!");
-
-
-    
-}*/
+ 
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ */
 
 - (void) startCapture
 {
@@ -215,13 +234,14 @@ static CameraEngine* theEngine;
     }
 }
 
+
 - (void) stopCapture
 {
     NSLog(@"stopping capture");
     @synchronized(self)
     {
         NSLog(@"capturing is %i",_isCapturing);
-       if (_isCapturing)
+        if (_isCapturing)
         {
             NSString* filename = [NSString stringWithFormat:@"capture%d.mp4", _currentFile];
             NSString* path = [NSTemporaryDirectory() stringByAppendingPathComponent:filename];
@@ -252,6 +272,7 @@ static CameraEngine* theEngine;
     }
 }
 
+
 - (void) pauseCapture
 {
     NSLog(@"called pauseCapture");
@@ -262,6 +283,7 @@ static CameraEngine* theEngine;
             NSLog(@"Pausing capture");
             _isPaused = YES;
             _discont = YES;
+        
         }
     }
 }

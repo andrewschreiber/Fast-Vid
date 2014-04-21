@@ -12,9 +12,9 @@
 		49517F5818CCBC4B00E757BA /* pauseWhiteCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F5518CCBC4B00E757BA /* pauseWhiteCircle@2x.png */; };
 		49517F6218CCC96C00E757BA /* fastVidIcon58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F5F18CCC96C00E757BA /* fastVidIcon58@2x.png */; };
 		49517F6318CCC96C00E757BA /* fastVidIcon80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F6018CCC96C00E757BA /* fastVidIcon80@2x.png */; };
-		49517F6418CCC96C00E757BA /* fastVidIcon120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F6118CCC96C00E757BA /* fastVidIcon120@2x.png */; };
-		49517F7118CCD33900E757BA /* fastbackground1136@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F6F18CCD33900E757BA /* fastbackground1136@2x.png */; };
-		49517F7218CCD33900E757BA /* fastBackground960@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F7018CCD33900E757BA /* fastBackground960@2x.png */; };
+		49B4E40818E532ED004AE459 /* fastVidIcon120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B4E40718E532ED004AE459 /* fastVidIcon120@2x.png */; };
+		49B4E40B18E53316004AE459 /* fastBackground960@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B4E40918E53316004AE459 /* fastBackground960@2x.png */; };
+		49B4E40C18E53316004AE459 /* fastbackground1136@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B4E40A18E53316004AE459 /* fastbackground1136@2x.png */; };
 		49E3ADDE18CBF419005D1B7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E3ADDD18CBF419005D1B7B /* Foundation.framework */; };
 		49E3ADE018CBF419005D1B7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E3ADDF18CBF419005D1B7B /* CoreGraphics.framework */; };
 		49E3ADE218CBF419005D1B7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E3ADE118CBF419005D1B7B /* UIKit.framework */; };
@@ -52,9 +52,9 @@
 		49517F5518CCBC4B00E757BA /* pauseWhiteCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pauseWhiteCircle@2x.png"; path = "../../pauseWhiteCircle@2x.png"; sourceTree = "<group>"; };
 		49517F5F18CCC96C00E757BA /* fastVidIcon58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fastVidIcon58@2x.png"; sourceTree = "<group>"; };
 		49517F6018CCC96C00E757BA /* fastVidIcon80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fastVidIcon80@2x.png"; sourceTree = "<group>"; };
-		49517F6118CCC96C00E757BA /* fastVidIcon120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fastVidIcon120@2x.png"; path = "../../../Desktop/fastVidIcon120@2x.png"; sourceTree = "<group>"; };
-		49517F6F18CCD33900E757BA /* fastbackground1136@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fastbackground1136@2x.png"; path = "../../../Desktop/fastbackground1136@2x.png"; sourceTree = "<group>"; };
-		49517F7018CCD33900E757BA /* fastBackground960@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fastBackground960@2x.png"; path = "../../../Desktop/fastBackground960@2x.png"; sourceTree = "<group>"; };
+		49B4E40718E532ED004AE459 /* fastVidIcon120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fastVidIcon120@2x.png"; path = "../../../Desktop/Order/FastApps/fastVidIcon120@2x.png"; sourceTree = "<group>"; };
+		49B4E40918E53316004AE459 /* fastBackground960@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fastBackground960@2x.png"; path = "Images.xcassets/LaunchImage.launchimage/fastBackground960@2x.png"; sourceTree = "<group>"; };
+		49B4E40A18E53316004AE459 /* fastbackground1136@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fastbackground1136@2x.png"; path = "Images.xcassets/LaunchImage.launchimage/fastbackground1136@2x.png"; sourceTree = "<group>"; };
 		49E3ADDA18CBF419005D1B7B /* Fast Video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fast Video.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E3ADDD18CBF419005D1B7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49E3ADDF18CBF419005D1B7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -165,11 +165,11 @@
 		49E3ADE418CBF419005D1B7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				49517F6F18CCD33900E757BA /* fastbackground1136@2x.png */,
-				49517F7018CCD33900E757BA /* fastBackground960@2x.png */,
+				49B4E40918E53316004AE459 /* fastBackground960@2x.png */,
+				49B4E40A18E53316004AE459 /* fastbackground1136@2x.png */,
+				49B4E40718E532ED004AE459 /* fastVidIcon120@2x.png */,
 				49517F5F18CCC96C00E757BA /* fastVidIcon58@2x.png */,
 				49517F6018CCC96C00E757BA /* fastVidIcon80@2x.png */,
-				49517F6118CCC96C00E757BA /* fastVidIcon120@2x.png */,
 				49517F5318CCBC4A00E757BA /* playWhiteCircle@2x.png */,
 				49517F5418CCBC4B00E757BA /* pauseColorCircle@2x.png */,
 				49517F5518CCBC4B00E757BA /* pauseWhiteCircle@2x.png */,
@@ -243,7 +243,7 @@
 		49E3ADD218CBF419005D1B7B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Andrew Schreiber";
 				TargetAttributes = {
 					49E3ADF418CBF419005D1B7B = {
@@ -278,12 +278,12 @@
 				49E3ADE818CBF419005D1B7B /* InfoPlist.strings in Resources */,
 				49517F6318CCC96C00E757BA /* fastVidIcon80@2x.png in Resources */,
 				49517F5718CCBC4B00E757BA /* pauseColorCircle@2x.png in Resources */,
-				49517F7218CCD33900E757BA /* fastBackground960@2x.png in Resources */,
 				49517F5818CCBC4B00E757BA /* pauseWhiteCircle@2x.png in Resources */,
+				49B4E40C18E53316004AE459 /* fastbackground1136@2x.png in Resources */,
 				49517F6218CCC96C00E757BA /* fastVidIcon58@2x.png in Resources */,
-				49517F7118CCD33900E757BA /* fastbackground1136@2x.png in Resources */,
 				49E3ADF018CBF419005D1B7B /* Images.xcassets in Resources */,
-				49517F6418CCC96C00E757BA /* fastVidIcon120@2x.png in Resources */,
+				49B4E40818E532ED004AE459 /* fastVidIcon120@2x.png in Resources */,
+				49B4E40B18E53316004AE459 /* fastBackground960@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +352,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -391,7 +390,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -449,7 +447,6 @@
 		49E3AE0A18CBF419005D1B7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fast Vid.app/Fast Vid";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -472,7 +469,6 @@
 		49E3AE0B18CBF419005D1B7B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fast Vid.app/Fast Vid";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

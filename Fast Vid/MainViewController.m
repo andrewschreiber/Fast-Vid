@@ -12,6 +12,8 @@
 
 @property (nonatomic,strong)AppDelegate *appDelegate;
 @property(nonatomic,strong)AVCaptureVideoPreviewLayer *prevLayer;
+
+
 @property (nonatomic,strong)UIButton *pauseButton;
 
 
@@ -44,9 +46,9 @@
     AVCaptureVideoPreviewLayer* preview = [[CameraEngine engine] getPreviewLayer];
 
         preview.frame = self.view.frame;
-    preview.masksToBounds = YES;
+        preview.masksToBounds = YES;
     
-[self.view.layer insertSublayer:preview atIndex:0];
+    [self.view.layer insertSublayer:preview atIndex:0];
 
     
     
